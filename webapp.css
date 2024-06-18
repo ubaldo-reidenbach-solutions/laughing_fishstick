@@ -1,0 +1,64 @@
+body {
+	background-color: red;
+	margin: 0px;
+}
+
+h1 {
+	color: black;
+}
+
+div.main {
+	background-color: white;
+	text-align: left;
+	height: 100vh;
+}
+div.title {
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+ul.vertical {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 10%;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+
+li a {
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #04AA6D;
+	color: white;
+}
+
+li.vertical a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+
+ul.horizontal {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+
+li {
+	float: left;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
