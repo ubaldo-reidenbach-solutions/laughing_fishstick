@@ -1,47 +1,96 @@
 body {
 	background-color: red;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-	color: black;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 div.main {
-	background-color: white;
+	background-color: #1d2a35;
 	text-align: left;
 	height: 100vh;
 }
+
 div.title {
-	background-color: white;
 	display: inline-block;
 	text-align: center;
 	width: 100%;
 }
+
+div.t_box1 {
+	border-radius: 15px;
+	background: #04AA6D;
+	padding: 10px;
+	margin: 10px;
+	font-family: Verdana, sans-serif;
+	float: left;
+	font-weight: bold;
+	color: white;
+}
+
+div.window {
+	float: right;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	background: #38444d;
+	min-width: 300px;
+	max-width: 40%;
+}
+
+div.w_title {
+	padding: 5px;
+	background: #555;
+	color: white;
+	font-family: Verdana, sans-serif;
+}
+
+div.w_body {
+        padding: 5px;
+        background: #f1f1f1;
+        color: black;
+        font-family: Verdana, sans-serif;
+}
+
+div.square1 {
+	height: 75px;
+	width: 75px;
+	float: left;
+	margin: 5px;
+	background: black;
+}
+
 ul.vertical {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 10%;
-	background-color: #f1f1f1;
+	background-color: #213242;
 	position: fixed;
 	height: 100%;
-	overflow: auto;
+	overflow: hidden;
+	font-family: Verdana, sans-serif;
 }
 
-li a {
+li.vertical a.v_inactive {
 	display: block;
-	color: black;
+	color: white;
 	padding: 8px 16px;
 	text-decoration: none;
 }
 
-li a.active {
+li.vertical a.v_active {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
 	background-color: #04AA6D;
 	color: white;
 }
 
-li.vertical a:hover:not(.active) {
+li.vertical a:hover:not(.v_active) {
 	background-color: #555;
 	color: white;
 }
@@ -51,14 +100,32 @@ ul.horizontal {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #282A35;
+	font-family: Verdana, sans-serif;
 }
 
 
-li {
+li.horizontal {
 	float: left;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+li.horizontal a.h_inactive {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li.horizontal a:hover:not(.h_active) {
+	background-color: black;
+}
+
+a.h_active {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+	background-color: #04AA6D;
 }
