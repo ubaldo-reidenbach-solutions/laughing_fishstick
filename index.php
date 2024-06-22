@@ -6,48 +6,67 @@
 	</head>
 	<body>
 		<div class="main">
-			<div class="title">
-				<div class="t_box1">Maecenas convallis mattis dolor quis efficitur eros lacinia in sed</div>
+			<div class="header">
+				<div class="full_width">
+					<div class="title">Sed congue urna nec neque vestibulum lobortis. Quisque consequat libero.</div>
+				</div>
+				<ul class="horizontal">
+					<li class="horizontal"><a class="h_inactive" href="#">Ultricies</a></li>
+					<li class="horizontal"><a class="h_inactive" href="#">Egestas</a></li>
+					<li class="horizontal"><a class="h_inactive" href="#">Donec</a></li>
+					<li class="horizontal"><a class="h_inactive" href="#">Proin</a></li>
+					<li class="horizontal"><a class="h_inactive" href="#">Condimentum</a></li>
+					<li class="horizontal"><a class="h_inactive" href="#">Hendrerit</a></li>
+					<li class="horizontal"><a class="h_inactive" href="#">Etiam</a></li>
+					<li class="horizontal"><a class="h_inactive" href="#">Lacinia</a></li>
+					<li class="horizontal"><a class="h_inactive" href="#">Fusce</a></li>
+					<li class="horizontal" style="float:right"><a class="h_active"href="#"><?php echo gethostname(); ?></a></li>
+				</ul>
 			</div>
-			<ul class="horizontal">
-				<li class="horizontal"><a class="h_inactive" href="#">Ultricies</a></li>
-				<li class="horizontal"><a class="h_inactive" href="#">Egestas</a></li>
-				<li class="horizontal"><a class="h_inactive" href="#">Donec</a></li>
-				<li class="horizontal"><a class="h_inactive" href="#">Proin</a></li>
-				<li class="horizontal"><a class="h_inactive" href="#">Condimentum</a></li>
-				<li class="horizontal"><a class="h_inactive" href="#">Hendrerit</a></li>
-				<li class="horizontal"><a class="h_inactive" href="#">Etiam</a></li>
-				<li class="horizontal"><a class="h_inactive" href="#">Lacinia</a></li>
-				<li class="horizontal"><a class="h_inactive" href="#">Fusce</a></li>
-				<li class="horizontal" style="float:right"><a class="h_active"href="#">Vivamus</a></li>
-			</ul>
-			<ul class="vertical">
-				<li class="vertical"><a class="v_active" href="#">Aliquam At</a></li>
-				<li class="vertical"><a class="v_inactive" href="#">Sed Pretium</a></li>
-				<li class="vertical"><a class="v_inactive" href="#">Vestibulum Congue</a></li>
-				<li class="vertical"><a class="v_inactive" href="#">Aenean Elementum</a></li>
-				<li class="vertical"><a class="v_inactive" href="#">Nunc Erat</a></li>
-				<li class="vertical"><a class="v_inactive" href="#">Nam Condimentum</a></li>
-				<li class="vertical"><a class="v_inactive" href="#">Mauris Vestibulum</a></li>
-				<li class="vertical"><a class="v_inactive" href="#">Orci Varius</a></li>
-				<li class="vertical"><a class="v_inactive" href="#">Nulla Rutrum</a></li>
-				<li class="vertical"><a class="v_inactive" href="#">Mauris Sed</a></li>
-			</ul>
-			<div class="window">
-				<div class="w_title">Suspendisse dolor tortor</div>
-				<div class="w_body"><p>Cras finibus urna a est posuere condimentum. Aenean volutpat nec lacus vel ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In convallis sapien ac massa tristique tempor eu sed lectus. Vivamus sit amet nunc leo. Phasellus augue lorem, condimentum porta mollis ac, fringilla nec ante. Donec quis cursus dolor. Suspendisse sit amet sollicitudin felis. Aliquam interdum erat ut quam elementum, at vehicula orci malesuada. Nullam a ex eros. Proin id lectus vulputate turpis commodo semper in quis urna. Nullam sodales lorem vel ullamcorper rhoncus. Sed a enim euismod ipsum hendrerit dapibus ut vel justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit leo id ante ullamcorper, id porta sem fringilla.</p><p>Pellentesque sed mi id leo interdum elementum. Nulla sit amet quam viverra, commodo arcu vitae, placerat odio. Integer ornare sollicitudin nisi sit amet aliquet. Praesent ligula mi, auctor in eros placerat, auctor tincidunt odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur in facilisis ligula, non vulputate dolor. Fusce arcu tellus, placerat nec varius a, dictum non purus. Sed feugiat sodales ligula a elementum. Integer tincidunt hendrerit ultrices. Etiam sed eleifend tellus. Aenean at felis vulputate, pellentesque est non, gravida lectus. Morbi sed lorem sapien. Donec laoreet dignissim ex a sagittis.</p></div>
+			<div class="full_width">
+				<div class="full_width">
+					<div class="title">Sed congue urna nec neque vestibulum lobortis. Quisque consequat libero.</div>
+				</div>
+				<div class="full_width">
+					<ul class="horizontal">
+						<li class="horizontal"><a class="h_inactive" href="#">Ultricies</a></li>
+						<li class="horizontal"><a class="h_inactive" href="#">Egestas</a></li>
+						<li class="horizontal"><a class="h_inactive" href="#">Donec</a></li>
+						<li class="horizontal"><a class="h_inactive" href="#">Proin</a></li>
+						<li class="horizontal"><a class="h_inactive" href="#">Condimentum</a></li>
+						<li class="horizontal"><a class="h_inactive" href="#">Hendrerit</a></li>
+						<li class="horizontal"><a class="h_inactive" href="#">Etiam</a></li>
+						<li class="horizontal"><a class="h_inactive" href="#">Lacinia</a></li>
+						<li class="horizontal"><a class="h_inactive" href="#">Fusce</a></li>
+						<li class="horizontal" style="float:right"><a class="h_active"href="#"><?php echo gethostname(); ?></a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="window">
-				<div class="w_title">Aenean at lacus neque</div>
-				<div class="w_body"><div class="square1"></div><p>Aenean pretium sapien lacus. Donec sagittis, arcu id dictum ultricies, urna ante scelerisque nisl, vitae tincidunt leo ex vitae augue. Sed commodo mi vehicula enim porttitor imperdiet. Donec non ex vitae felis cursus facilisis. Vivamus consequat tortor non ultricies molestie. Etiam at magna luctus enim accumsan cursus. Praesent mattis lorem id lectus tempor varius. Aliquam nulla turpis, accumsan id dignissim et, rhoncus ut nisl. Nullam luctus consectetur ligula. Vivamus varius diam vitae ipsum euismod consequat sit amet vitae sapien. Proin dignissim ut risus vel lobortis. Donec eu molestie sapien. Suspendisse mattis in nulla sed hendrerit. Sed ac purus et quam aliquet dictum.</p></div>
-			</div>
-			<div class="window">
-				<div class="w_title">Nam sit amet mi est</div>
-				<div class="w_body"><p>Duis quis lacus quis turpis volutpat condimentum vitae non dui. Maecenas eget aliquet quam, vel rhoncus tellus. Vestibulum elementum elementum lacinia. Vestibulum tristique lacus in cursus eleifend. Fusce ut dictum elit. Etiam imperdiet lectus mi, ultrices iaculis tortor fermentum vitae. Pellentesque eget diam quis eros porta sagittis. In lectus dui, aliquam sit amet diam nec, cursus lobortis erat. Morbi congue gravida mauris, in lobortis lacus interdum tempor.</p></div>
-			</div>
-			<div class="window">
-				<div class="w_title">Nunc convallis augue</div>
-				<div class="w_body"><div class="square1"></div><p>Vestibulum et molestie neque. Pellentesque suscipit aliquam fringilla. Etiam semper ipsum eros, nec sollicitudin purus rutrum sit amet. Sed at iaculis urna, ut gravida dolor. Mauris sit amet nibh in magna hendrerit consectetur. Nulla faucibus nisi tellus, vitae dictum est fringilla et. Aenean commodo elit quis dignissim volutpat. Aliquam ligula odio, ultrices id lectus et, facilisis dignissim nulla. Sed auctor dolor et mi iaculis, in rhoncus risus egestas. Sed bibendum auctor velit, et efficitur odio fermentum ac. Vivamus elit dui, sollicitudin in lacinia ac, congue et neque. Morbi venenatis interdum arcu, lacinia interdum ipsum tincidunt et. Nullam ac elementum metus.</p><p>Sed tempor in risus sit amet iaculis. Aliquam erat volutpat. Pellentesque ac ultricies tortor. Ut vitae enim condimentum, laoreet tortor vitae, dignissim metus. Vivamus a metus id lectus ornare consequat eget sit amet justo. Suspendisse potenti. Proin elementum elit at ex tincidunt, a volutpat nunc fermentum.</p></div>
+			<div class="full_width">
+				<div class="window">
+					<div class="w_title">Proin lobortis libero nec laoreet</div>
+					<div class="w_body"><div class="square3"></div><p>Fusce viverra ligula consectetur, lacinia velit ac, interdum erat. Sed eu fermentum orci. Nullam venenatis auctor arcu, a tempus magna faucibus in. Proin consectetur facilisis velit, nec eleifend dui pellentesque eu. Vestibulum iaculis, tortor ac convallis varius, diam quam cursus justo, eget rutrum metus nisl vitae elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque posuere dolor ipsum, nec viverra sem interdum sit amet.</p><p>Maecenas bibendum arcu erat, et facilisis ante porttitor vitae. Ut a tempus lectus, et fringilla ligula. Mauris metus justo, vulputate non pellentesque ac, varius id lorem. Suspendisse aliquam massa dui, ac pellentesque magna mattis ut. Fusce eu ex a arcu ultricies condimentum. Proin ornare tempor magna non cursus. Mauris odio leo, euismod eu pulvinar id, commodo et ante. Fusce eu velit eget dui condimentum blandit efficitur vel justo. Sed in ante id diam congue consequat tempus tincidunt turpis. Praesent vitae magna aliquet, scelerisque tellus quis, rutrum odio. Nunc quis tincidunt lorem. Etiam eu vulputate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper vitae neque ut interdum.</p><p>Morbi faucibus pulvinar urna, vel tincidunt tellus maximus vitae. Cras congue in tellus eu aliquet. Pellentesque bibendum enim augue, eu placerat turpis molestie ornare. Quisque interdum fringilla lectus. Nulla ac luctus leo. Duis vitae pulvinar est. Phasellus euismod elit vehicula justo elementum varius.</p></div>
+				</div>
+				<div class="window">
+					<div class="w_title">In egestas quis tortor sit amet</div>
+					<div class="w_body"><div class="square2"></div><p>Fusce augue massa, gravida a neque ornare, tempor tempor ex. Morbi convallis blandit nisi, sed mattis risus pharetra eu. Donec id neque nec libero aliquam consequat sed vel mauris. Aliquam erat volutpat. Vestibulum fringilla iaculis eleifend. Suspendisse posuere, ante ut interdum accumsan, nunc augue egestas dolor, vel faucibus neque orci eget enim. Donec vitae ultrices tellus. Aliquam lobortis consequat tincidunt. Vestibulum congue, augue imperdiet laoreet maximus, quam dui euismod libero, non aliquam eros magna non sapien.</p><p>Aenean eu arcu a tellus sagittis feugiat non ut arcu. Vivamus quis ultricies lectus, ut ullamcorper ante. Mauris elementum metus eget ex mollis, et bibendum massa interdum. Suspendisse tempus est eget erat commodo condimentum. Nullam scelerisque maximus lorem eget pulvinar. Donec ac faucibus massa, eget laoreet quam. In a massa non ante consequat aliquet. Sed lorem lorem, maximus ut placerat quis, ullamcorper quis dui. Phasellus dui velit, fringilla sit amet egestas et, volutpat a neque. Aenean tortor justo, iaculis et ultrices id, eleifend id leo. Nullam iaculis lobortis vehicula. Sed tristique libero non justo molestie, sit amet dignissim tortor ultricies.</p></div>
+				</div>
+				<div class="window">
+					<div class="w_title">Curabitur suscipit</div>
+					<div class="w_body"><div class="square4"></div><p>Integer non nunc quis est porta bibendum. Mauris mi orci, ultricies ac dolor placerat, venenatis mollis augue. Vestibulum dignissim ultrices nibh sed placerat. Donec sed mauris nisl. Donec porta eget libero sit amet ultrices. Fusce pulvinar ante nec pellentesque placerat. Maecenas non dui pellentesque, facilisis dolor a, blandit augue. Nam nec viverra nunc. Fusce imperdiet, erat ac finibus ullamcorper, turpis mauris finibus leo, quis gravida mauris tortor eu nisi. Nulla elementum mi id mollis euismod. Vivamus eleifend diam et velit bibendum congue. Quisque nec odio arcu. Fusce accumsan sollicitudin accumsan. Nunc ac ante ac arcu condimentum luctus. Praesent porta elementum nisl ut ornare. Cras bibendum faucibus enim quis efficitur.</p><p>Morbi dignissim accumsan euismod. Curabitur mattis diam ac ultrices suscipit. Donec at sollicitudin nibh. Mauris eu tincidunt libero, nec eleifend enim. Mauris dolor odio, accumsan sit amet nunc ut, imperdiet porta mi. Pellentesque id sem metus. Fusce quis nisl mi. Vivamus mattis ipsum quis enim convallis, a malesuada dolor tincidunt. Nulla ac mi pellentesque, bibendum purus blandit, pharetra urna. Mauris bibendum, est eu dapibus viverra, ex lectus tempor turpis, eget imperdiet felis risus ut nisi.</p><p>Fusce blandit eleifend ornare. Integer vel bibendum eros. Ut viverra placerat sem at tristique. Nunc id congue libero. Nam sodales mollis pretium. Integer nec dignissim urna. Etiam ac arcu eu lorem maximus efficitur eget non eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+				</div>
+				<div class="window">
+					<div class="w_title">Fusce aliquet dignissim eros</div>
+					<div class="w_body"><div class="square1"></div><p>Donec neque eros, auctor sed lorem id, efficitur vulputate ligula. Nullam non bibendum tortor, nec condimentum nibh. Donec sodales lobortis diam, eu placerat tortor viverra ut. Proin et urna nec neque vulputate mollis ut tincidunt sapien. In facilisis porttitor orci imperdiet convallis. Aenean vel justo quis turpis eleifend rhoncus. Morbi placerat nisi ullamcorper tortor venenatis, sed maximus eros varius. Ut in suscipit tortor, at dictum ex. Praesent efficitur vulputate elementum.</p><p>Maecenas rhoncus lectus nibh, eu sodales ex tempor in. In hac habitasse platea dictumst. Ut cursus, lectus sit amet tempus gravida, augue dui condimentum arcu, vel semper sem lorem sit amet dui. Maecenas viverra, ipsum pharetra tincidunt porta, enim lacus ultricies leo, ac porta lorem risus eget turpis. In euismod, augue vel porta ultricies, metus ligula faucibus justo, ac porta ipsum dui non purus. Pellentesque convallis mi libero, ut imperdiet erat ornare sit amet. Praesent in blandit odio. Morbi at elementum sem. Donec faucibus lacus et leo elementum venenatis. Suspendisse interdum vitae dui nec vulputate. Nullam at velit nec arcu rhoncus sollicitudin. Curabitur hendrerit, arcu in vehicula vestibulum, libero metus varius orci, id eleifend elit elit quis dolor. Vivamus rutrum nisi ut lacus aliquet sodales. Vestibulum mi mauris, faucibus sit amet vulputate non, vehicula eu metus. In tincidunt nisl quis urna finibus ultrices.</p></div>
+				</div>
+				<div class="window">
+					<div class="w_title">Suspendisse odio nulla</div>
+					<div class="w_body"><div class="square4"></div><p>Nunc congue dui eu quam molestie sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper arcu vitae lorem bibendum, eu iaculis est condimentum. Curabitur at sapien id lacus viverra dapibus. Duis quis felis imperdiet, fermentum erat at, scelerisque elit. Aliquam mattis commodo urna rutrum dictum. Proin ornare iaculis nunc, vitae euismod nulla luctus eu. Donec lobortis velit nisi, a pulvinar est finibus non. Ut ullamcorper nec tortor eu blandit. Nulla sollicitudin dui vitae nisi pellentesque, vel fringilla arcu consectetur. Vestibulum luctus, risus non luctus congue, turpis est aliquet leo, sed tristique nulla nisl vel ex. Nulla vel convallis metus.</p></div>
+				</div>
+				<div class="window">
+					<div class="w_title">Mauris vel congue massa</div>
+					<div class="w_body"><div class="square3"></div><p>Praesent convallis nec orci eu porta. Nullam finibus urna vitae gravida vulputate. Etiam mattis diam in imperdiet dictum. Aliquam malesuada nulla sed eros convallis pharetra. Vivamus nisi neque, molestie vel mollis sed, maximus eu risus. Integer fringilla dui nec lorem imperdiet scelerisque. Nullam in turpis felis. Suspendisse ut massa suscipit, pharetra elit nec, commodo risus. Nam iaculis libero sed nulla consectetur condimentum.</p><p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ut varius purus, id varius urna. Quisque sollicitudin libero mollis massa pharetra, sed ultricies massa placerat. Suspendisse vitae ultricies dolor. Mauris ut mauris euismod, ultricies purus sit amet, imperdiet urna. Vivamus semper libero eget orci vestibulum, eget auctor ipsum ultricies. Mauris in neque ac ex consectetur hendrerit. In ornare purus odio, sed accumsan elit tincidunt ac. Nulla a enim dolor. Cras mollis leo et ipsum porta, nec iaculis lectus lobortis. Duis lectus lacus, aliquet vitae tincidunt ac, placerat at diam.</p></div>
+				</div>
 			</div>
 		</div>
 	</body>
