@@ -80,6 +80,18 @@
 					<div class="w_body"><div class="square3"></div><p>Praesent convallis nec orci eu porta. Nullam finibus urna vitae gravida vulputate. Etiam mattis diam in imperdiet dictum. Aliquam malesuada nulla sed eros convallis pharetra. Vivamus nisi neque, molestie vel mollis sed, maximus eu risus. Integer fringilla dui nec lorem imperdiet scelerisque. Nullam in turpis felis. Suspendisse ut massa suscipit, pharetra elit nec, commodo risus. Nam iaculis libero sed nulla consectetur condimentum.</p><p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ut varius purus, id varius urna. Quisque sollicitudin libero mollis massa pharetra, sed ultricies massa placerat. Suspendisse vitae ultricies dolor. Mauris ut mauris euismod, ultricies purus sit amet, imperdiet urna. Vivamus semper libero eget orci vestibulum, eget auctor ipsum ultricies. Mauris in neque ac ex consectetur hendrerit. In ornare purus odio, sed accumsan elit tincidunt ac. Nulla a enim dolor. Cras mollis leo et ipsum porta, nec iaculis lectus lobortis. Duis lectus lacus, aliquet vitae tincidunt ac, placerat at diam.</p></div>
 				</div>
 			</div>
+			<div class="full-width">
+				<div class="cookie">Phasellus</div>
+				<div class="cookie">Ullamcorper</div>
+				<div class="cookie">Elementum</div>
+				<div class="terminal">Praesent sed sodales elit. Phasellus posuere et elit id sollicitudin. Suspendisse mollis mattis nunc a mollis. Proin porttitor dolor libero.</div
+			</div>
+			<div class="footer">
+				<div class="cookie">Phasellus</div>
+				<div class="cookie">Ullamcorper</div>
+				<div class="cookie">Elementum</div>
+				<div class="terminal">Praesent sed sodales elit. Phasellus posuere et elit id sollicitudin. Suspendisse mollis mattis nunc a mollis. Proin porttitor dolor libero.</div>
+			</div>
 		</div>
 	</body>
 </html>
