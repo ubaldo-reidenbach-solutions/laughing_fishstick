@@ -43,6 +43,18 @@
 				</div>
 			</div>
 			<div class="full_width">
+				<div class="menu">
+					<div class="item"><a class="item" href="#">Ls</a></div>
+					<div class="item"><a class="item" href="#">Cp</a></div>
+					<div class="item"><a class="item" href="#">Du</a></div>
+					<div class="item"><a class="item" href="#">Vi</a></div>
+					<div class="item"><a class="item" href="#">Ps</a></div>
+					<div class="item"><a class="item" href="#">Mv</a></div>
+					<div class="item"><a class="item" href="#">Df</a></div>
+					<div class="item"><a class="item" href="#">Rm</a></div>
+					<div class="item"><a class="item" href="#">Dd</a></div>
+					<div class="item"><a class="item" href="#">Ln</a></div>
+				</div>
 				<div class="window">
 					<div class="w_title">Proin lobortis libero nec laoreet</div>
 					<div class="w_body"><div class="square3"></div><p>Fusce viverra ligula consectetur, lacinia velit ac, interdum erat. Sed eu fermentum orci. Nullam venenatis auctor arcu, a tempus magna faucibus in. Proin consectetur facilisis velit, nec eleifend dui pellentesque eu. Vestibulum iaculis, tortor ac convallis varius, diam quam cursus justo, eget rutrum metus nisl vitae elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque posuere dolor ipsum, nec viverra sem interdum sit amet.</p><p>Maecenas bibendum arcu erat, et facilisis ante porttitor vitae. Ut a tempus lectus, et fringilla ligula. Mauris metus justo, vulputate non pellentesque ac, varius id lorem. Suspendisse aliquam massa dui, ac pellentesque magna mattis ut. Fusce eu ex a arcu ultricies condimentum. Proin ornare tempor magna non cursus. Mauris odio leo, euismod eu pulvinar id, commodo et ante. Fusce eu velit eget dui condimentum blandit efficitur vel justo. Sed in ante id diam congue consequat tempus tincidunt turpis. Praesent vitae magna aliquet, scelerisque tellus quis, rutrum odio. Nunc quis tincidunt lorem. Etiam eu vulputate velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper vitae neque ut interdum.</p><p>Morbi faucibus pulvinar urna, vel tincidunt tellus maximus vitae. Cras congue in tellus eu aliquet. Pellentesque bibendum enim augue, eu placerat turpis molestie ornare. Quisque interdum fringilla lectus. Nulla ac luctus leo. Duis vitae pulvinar est. Phasellus euismod elit vehicula justo elementum varius.</p></div>

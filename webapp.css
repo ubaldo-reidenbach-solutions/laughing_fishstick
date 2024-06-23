@@ -24,6 +24,14 @@ div.header {
 	background-color: #1d2a35;
 }
 
+div.menu {
+	position: fixed;
+	float: left;
+	top: 100;
+	left: 0;
+	width: 100px;
+}
+
 div.full_width {
 	display: inline-block;
 	width: 100%;
@@ -39,6 +47,30 @@ div.title {
 	font-weight: bold;
 	color: white;
 }
+
+div.item {
+    border-radius: 25px;
+    background: #38444d;
+	height: 30px;
+	width: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, sans-serif;
+    float: left;
+    font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.item a.item {
+	color: white;
+	text-decoration: none;
+}
+
+div.item:hover {
+	background: #04AA6D;
+} 
 
 div.window {
 	float: right;
@@ -160,4 +192,24 @@ a.h_active {
 	padding: 8px 16px;
 	text-decoration: none;
 	background-color: #04AA6D;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #1d2a35; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #38444d; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
 }
